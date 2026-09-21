@@ -1,0 +1,2247 @@
+{
+  "backup_created_at": "2026-09-21T12:40:07.577053+00:00",
+  "source": "Supabase project wowtdwlpatpqjzlqpqcj (material-poetry), automated via GitHub Actions",
+  "note": "Snapshot of works, collections, exhibitions, and bio tables. Image FILES themselves live in Cloudinary and are referenced by URL in image_urls fields, not duplicated here.",
+  "works": [
+    {
+      "id": "ff8b577d-3663-45df-866a-9cc6d37d3ea5",
+      "title": "Chalice",
+      "year": 2010,
+      "medium": "Bronze",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-17T14:25:26.801368+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781706321/oplrqgwdokezlyptx562.jpg"
+      ]
+    },
+    {
+      "id": "7c8771b2-d1e5-4a4f-99ac-8f02fa66ae69",
+      "title": "wooden branches",
+      "year": null,
+      "medium": "",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "b610c7a5-4ab0-4446-97cc-227fb620ab44"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-29T13:55:34.523687+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782741319/wft5x3nhqjhgtjssqsu5.jpg"
+      ]
+    },
+    {
+      "id": "cdebcd36-207e-4f08-8f92-a6344f941fb5",
+      "title": "wood wood wood",
+      "year": null,
+      "medium": "",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "b610c7a5-4ab0-4446-97cc-227fb620ab44"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-29T13:59:52.135609+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782741639/dob0nrq0fmt2r0zw2auo.jpg"
+      ]
+    },
+    {
+      "id": "3075d4e7-cdcf-4797-af46-9c3f52284ba1",
+      "title": "The smallest space",
+      "year": 2002,
+      "medium": "Acrylic on paper",
+      "dimensions": "110x110cm",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-15T09:20:54.578288+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": 110,
+      "height_cm": 110,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781515199/s72y2junfvb6andbgzem.jpg"
+      ]
+    },
+    {
+      "id": "a873d2af-6a35-4e18-9225-856e07ab1f61",
+      "title": "Valentine",
+      "year": 2026,
+      "medium": "ink on paper",
+      "dimensions": "28 pieces, each 27.5 x 14cm",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "b322cf93-3277-4522-a2b2-806b4bc6ba94"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-17T17:14:05.57798+00:00",
+      "description": "",
+      "work_date": "2026-02-14",
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716385/sijfm8zychfdlswyblmq.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716408/ge956xlt3zm45ndeo5jw.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716387/l6kxjnglztxv1qgvwxdq.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716389/xlmr3jcel2pczalixanb.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716390/bbz3ba55zvxtluqqqeaq.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716391/apjs7feh8ydwv56r4f8u.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716396/xz339sfnrq2ciapsfane.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716398/dswt9nv4blkf4kz7oapf.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716399/fwehhwuewjpjllbgfgw8.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716401/b7b9ri8vsrpqcazilrpw.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716402/t9azrkacbn5cboqr0gul.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716404/uylxbif7nmx01fcmyag0.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716406/o7dpf06tzqsnkqt5341d.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716410/cwqlrw4qrzrvashfimyo.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716412/avnlspy6rsdw9cnsfxrt.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716413/ykjvujuduei1jzeeihk6.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716415/iuvffanjveiqxqcynfch.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716418/gqp2lseaukpbxbcl3knm.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716420/c5ww9za6rdslnzfpisrm.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716422/kgijyt0txbcrl5rfguqp.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716425/tjbc27hjkz7qk0vmk2q5.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716427/wn4gc2mx18lt2sq2dlpx.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716428/ixwuni7ca64ekmg25wu2.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716433/ydqdkov1xopqlssknbut.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716434/orlahkhdwvc4hoerru0g.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716436/bpk4pegfqn78rg43jjhk.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716438/kltdm2a5i3dfnaayp2kj.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716440/ome9dojfradcxhrh8jws.jpg"
+      ]
+    },
+    {
+      "id": "c8e13698-e91d-45b6-b8c2-5178e7821770",
+      "title": "Habitat",
+      "year": 2026,
+      "medium": "watercolour on paper",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "b322cf93-3277-4522-a2b2-806b4bc6ba94"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-07-27T14:28:36.834873+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": 47,
+      "height_cm": 52,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1785162690/f0vrf8drjive3fdhcbl9.jpg"
+      ]
+    },
+    {
+      "id": "381d2b52-52ec-4fbb-8886-8e1f048b874e",
+      "title": "aaaa^^ahhh^^^^aaaaaahhhhh! (celestial choir)",
+      "year": 2026,
+      "medium": "Digital print.",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "b322cf93-3277-4522-a2b2-806b4bc6ba94"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-29T13:15:16.743815+00:00",
+      "description": "",
+      "work_date": "2026-06-04",
+      "width_cm": 156,
+      "height_cm": 218,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782738894/wqwvxb3ifv2m6tsoxwzv.jpg"
+      ]
+    },
+    {
+      "id": "f6ba413f-dc4e-4736-9dee-c9bd4ff8be77",
+      "title": "Time flows outward from the mark we make (part 1)",
+      "year": 2025,
+      "medium": "",
+      "dimensions": "122 x 81cm",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-06T11:47:54.997027+00:00",
+      "description": "",
+      "work_date": "2025-08-15",
+      "width_cm": 122,
+      "height_cm": 81,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786205086/rfvjhp8toddieqrirj3u.jpg"
+      ]
+    },
+    {
+      "id": "60eb652b-50c5-43f7-b753-44c32c9b5fc9",
+      "title": "Time flows outward from the mark we make (part 2)",
+      "year": 2025,
+      "medium": "ink on plywood",
+      "dimensions": "122 x 81cm",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-06T11:37:07.626991+00:00",
+      "description": "",
+      "work_date": "2025-08-15",
+      "width_cm": 122,
+      "height_cm": 81,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786205391/bskynw2dol2phqizgyed.jpg"
+      ]
+    },
+    {
+      "id": "beddd1a7-032b-4512-8254-10620af1b7b2",
+      "title": "Memento vivre",
+      "year": 2026,
+      "medium": "ink on cardboard",
+      "dimensions": "190 x 107cm",
+      "visibility": "published",
+      "collection_ids": [
+        "b322cf93-3277-4522-a2b2-806b4bc6ba94"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-06T12:33:56.674753+00:00",
+      "description": "",
+      "work_date": "2026-06-01",
+      "width_cm": 190,
+      "height_cm": 107,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780749210/rlqpnj4rc1vanfedcjyp.jpg"
+      ]
+    },
+    {
+      "id": "605ce44d-6dd2-4885-9889-1823448bfb74",
+      "title": "Everything tastes as good as it feels",
+      "year": 2015,
+      "medium": "Feathers, cashmere, pine, oak, spring, resin, watercolour, ceramic, aluminium chain, steel.",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T19:03:00.578449+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778094113/fgprpo2y79tfxz3tmgg2.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778094122/xf9wpvzrioiej0ktkwhy.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778094128/qcfqmfx743qxh5ztbyid.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781724384/o8t8tierlijnijg8lqhc.jpg"
+      ]
+    },
+    {
+      "id": "04b8656a-4cbf-4f71-a910-4cfcd5e9613c",
+      "title": "Load bearing",
+      "year": 2026,
+      "medium": "Metal",
+      "dimensions": "47 cm x 76 cm",
+      "visibility": "draft",
+      "collection_ids": [
+        "b322cf93-3277-4522-a2b2-806b4bc6ba94"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-03T18:47:08.551696+00:00",
+      "description": "Prototype for mould",
+      "work_date": "2026-02-10",
+      "width_cm": 47,
+      "height_cm": 76,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1777833990/zx776zhl9ohibfdtw2ow.jpg"
+      ]
+    },
+    {
+      "id": "5f6a842e-e747-40a8-a725-be4feaf54c9d",
+      "title": "Waves of objects around us  but not seen",
+      "year": 2024,
+      "medium": "watercolour on paper",
+      "dimensions": "114 x 46cm",
+      "visibility": "draft",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T10:03:17.540232+00:00",
+      "description": "",
+      "work_date": "2024-10-24",
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778147886/ukptogkndf39soevmfb5.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778147895/xh2u8feinkavu2nepqu7.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778147891/xsikou0c3wjiuhdhcjlq.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778147848/rduq0jrkhdhvuv2tlv7u.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778147854/mql6hn188ipvwazijbbv.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778147875/z5iln8mzplxwdsheq0zx.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778147880/bkgss6o9xswvvvcywqgg.jpg"
+      ]
+    },
+    {
+      "id": "2ce3bd2e-fc6c-4f1b-8eb0-adf314d2565c",
+      "title": "In the air, in the land and in me.",
+      "year": 2021,
+      "medium": "Oil on canvas",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T19:25:14.187718+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778095053/ae6bk1kkza2txctwpf1l.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778095242/jp3a0qphcvfhmrw2kss7.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778095317/qcgg5ebqmx53p0jq9aj2.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778095327/qryoopanmvutffe3syw8.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778095488/rkqhtbuwtvdb7g0fujig.jpg"
+      ]
+    },
+    {
+      "id": "2403ae48-3644-4420-97fe-e01b131c8be2",
+      "title": "Welcome",
+      "year": 2011,
+      "medium": "Painted ceramic",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-17T14:28:34.267979+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781706593/cufcalyxqyfij2qpjtn4.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781706484/wdu8oouecvces3vng2ex.jpg"
+      ]
+    },
+    {
+      "id": "8047534d-65bc-4005-8cf5-e753601736f5",
+      "title": "In the space of the place that was never there",
+      "year": 2018,
+      "medium": "acrylic,pencil,crayon on canvas, jute string",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T11:54:26.692612+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778154197/ojahq33dswwqqhb12wp1.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778154181/yoba647woaxpyxqxklpq.jpg"
+      ]
+    },
+    {
+      "id": "978854f7-825f-41cc-a50d-989386178a0f",
+      "title": "Hands on hips",
+      "year": 2015,
+      "medium": "digital print",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "4bbe4afa-e9d2-4243-82b2-4d78cdc207f0"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T18:50:15.330286+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778093386/e4uxwnxbxrlwjk75rjqv.jpg"
+      ]
+    },
+    {
+      "id": "e6a9e263-1519-4915-8622-5bb130c01763",
+      "title": "All the eggs I have left",
+      "year": 2021,
+      "medium": "Acrylic on cavas",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T11:01:43.856778+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778153500/h7u0ty0ascg4lww4qcmx.jpg"
+      ]
+    },
+    {
+      "id": "c473b3c6-19cf-4b86-8103-9bb8c14feeea",
+      "title": "Untitled",
+      "year": 2025,
+      "medium": "Acrylic on canvas",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-07-27T14:49:42.727403+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1785163776/wjqc02zaq4tbn8u6xcws.jpg"
+      ]
+    },
+    {
+      "id": "c3164977-353d-4f67-95eb-e6c7fd5d57e4",
+      "title": "Time flows outward from the mark we make (part 3)",
+      "year": 2025,
+      "medium": "Ink on plyboard",
+      "dimensions": "122 x 81cm",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-03T19:21:22.10672+00:00",
+      "description": "",
+      "work_date": "2025-08-15",
+      "width_cm": 122,
+      "height_cm": 81,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780745033/ysa5r0vwv6vaikeitcwy.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1777837962/cjcsvq6mhlhkywrwnnnd.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780746333/oyjcckfvcul4drjdfmw3.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780746349/un2yjybuudwlxss1qbev.jpg"
+      ]
+    },
+    {
+      "id": "d11a7130-8a1e-49aa-8f3b-a9b5eae7f3b9",
+      "title": "Learning to Swim",
+      "year": 2012,
+      "medium": "Mixed - Installation",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "I use text, photography and assemblage and also make objects when I feel I need to.\nI take ideas and concerns I have and  create a material response to\nthem. I try to create a response where the materiality speaks of the framework and\nmy response to it speaks of a response to that framework. The material response\ndoes not describe its concerns but shows associations between the chosen forms\nand leaves the viewer to decide.\n\nI am occupied with how as individuals we function in existing structures: how the\ncodes of these systems effect how we see ourselves and how we define ourselves in\nrelation to them.\n\nThis work was initiated by my own experiences, the symbiotic effect of nurturing and\nreceiving and how that ties in with both learning and teaching. Whatever systems\nyou function in the individual relationships continue to create dialectical interventions\nwhich will then alter framework by affecting the individuals within it.\n\nThe piece on show is called Learning to swim. The starting point for the piece is a\npair of worn leather boots.I wore these when I was pregnant with my son.\nOne boot is detached from its foot and attached to a constructed steel frame that\nrocks. The inside of the boot is filled with feathers.\nThe companion boot is turned inside out and attached to another steel frame and\nthis is filled with bubble wrap.\n\nThere is a glazed clay object which is split into two, one half is pink and the other half\nblue. This sits on a sheet of latex where one side is imprinted with the texture of the\nsteel from the tray. A yellow curtain cord attaches the clay objects to a spring high on\nthe wall.\nThe table structure is constructed of walnut, oak, ash and sycamore. The wood gets\nlighter as it gets nearer the top. There is a glass panel which sits flush on the top and\nhas a hole in the centre. In the hole sits a blue cardboard NHS cardboard bowl\ncoloured with cobalt blue ink.\n\nOne of the leather pieces sits on a platform painted the same colour as the floor. The\nother sits on fake grass. Attached to the platform is one piece of metal tubing with\nbrackets. The other leans against it and is supported by a nylon rod containing\nanother nylon rod covered in cellophane.\n\nIn the corner sitting on a plastic plant container lie three objects. One white spray\npainted ceramic cone, an ink coloured piece of cardboard packaging and a flower\nfilled Lurex cone on a cake tray. This is the cone of flower power and the ceramic cone was first moulded into a shape and then punched to create the dent.",
+      "image_url": null,
+      "created_at": "2026-06-17T15:46:03.704789+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781710781/q5khpea03g7xievvcy9c.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781711271/mp8h9ewlfts1okr2i3gh.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781711646/lcbybjfo3uk71snebp9c.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781711649/ykwkfpyymex3tiyxeitx.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781711666/bbpdiqmevyxyupmn2iqv.jpg"
+      ]
+    },
+    {
+      "id": "03e4372f-1763-49d4-a377-f63ce4a3c020",
+      "title": "Copper & wood mantle",
+      "year": 2026,
+      "medium": "",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "b610c7a5-4ab0-4446-97cc-227fb620ab44"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-29T13:53:59.490061+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782741190/sghpbr6a7h7zjyajrxmv.jpg"
+      ]
+    },
+    {
+      "id": "863b7a2e-7466-4d94-af2d-60b3731599ec",
+      "title": "Locked",
+      "year": 2012,
+      "medium": "steel",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-17T22:29:30.924414+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781735366/pvrrsojif8yeg3tldhok.jpg"
+      ]
+    },
+    {
+      "id": "5bfadb85-9b24-4a66-ab45-2dc98d0f50db",
+      "title": "Vitruvian Woman",
+      "year": 2020,
+      "medium": "Pastel, acrylic on paper",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "1e9868dc-ef86-484c-b854-1c70f6eb51f1",
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T10:57:23.100408+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782645335/kiehhiqfgeuwzy6er8fx.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778151490/wl3kjlxm4y78xonblav4.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778152884/vvhvbys5mrhcgh93tqds.jpg"
+      ]
+    },
+    {
+      "id": "efa6ac1b-b1d4-4721-a0eb-91be28bd96b4",
+      "title": "Meditation Cushion (after Van Gogh's Chair)",
+      "year": 2026,
+      "medium": "Acrylic on paper",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-08-12T22:23:03.652844+00:00",
+      "description": "",
+      "work_date": "2026-08-07",
+      "width_cm": 79,
+      "height_cm": 109,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786573936/jfatarbvqg4hlajsh0p6.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786574170/q0j3atkmqqnpevrnqy3d.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786574206/mgkiuyb0dkkq3gmktzo1.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786574247/g63aq5md9kmtdkbg0iud.jpg"
+      ]
+    },
+    {
+      "id": "6afebad9-904f-484c-98fc-1c37cdef17e0",
+      "title": "Alternative transfer method  (ATM)",
+      "year": 2015,
+      "medium": "pencil and watercolour. photocopy.",
+      "dimensions": "120 x 80 cm",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-28T11:46:11.499461+00:00",
+      "description": "Wall drawing at Flat time house. A letter that John Latham had written to Margaret Thatcher was found in the Latham archives. A copy of the letter is displayed too.",
+      "work_date": null,
+      "width_cm": 120,
+      "height_cm": 80,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782646840/ww35m2fgljsaklus6ofz.jpg"
+      ]
+    },
+    {
+      "id": "c164229f-9052-4f2d-b17f-da0391426696",
+      "title": "Moon shadow",
+      "year": 2025,
+      "medium": "Ink on cardboard",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c",
+        "1301e7b9-a411-468a-8652-3c2c486a91ae"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-04T12:37:09.893426+00:00",
+      "description": "",
+      "work_date": "2025-03-24",
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1777898160/wpq2uze0z7x9uyhgnnum.jpg"
+      ]
+    },
+    {
+      "id": "08086f97-8e8d-4de1-8f26-24dce193de47",
+      "title": "Catching a floating dream so it won’t fall from the sky",
+      "year": 2010,
+      "medium": "silk, badminton racket, air dry clay, wire.",
+      "dimensions": "70 x 50 x 50cm",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "I read a news article about a bride to be who was left at the alter. She threw herself off the top of her apartment block wearing her wedding dress. \nI imagined a net with wings that could fly up and save her.",
+      "image_url": null,
+      "created_at": "2026-06-09T10:34:08.13213+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781001234/swuxglzdgeohivbad4xq.jpg"
+      ]
+    },
+    {
+      "id": "7ee4d27b-ae96-496f-890f-f14bad089955",
+      "title": "How is it when the intention is one thing, the outcome can be so something else",
+      "year": 2011,
+      "medium": "Painted ceramic",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-08T19:13:23.205554+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1784300514/ynint3hivssvfm3vohlv.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1784300517/rxnum42iyr0r9ar9mphk.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1784300511/gik54lbykoaywnvuqoni.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1784299198/duijhutbpkezcrm1as7n.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780945949/jyix1wfdhhtz7q7gbb6w.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1784298218/ikvr5fzo8v3v5hnaocpb.jpg"
+      ]
+    },
+    {
+      "id": "53a20229-fae5-4b8a-8329-e3048661f16c",
+      "title": "Security Blanket",
+      "year": 2026,
+      "medium": "Duvet cover, cotton, wool, silk thread, canvas, velvet, wine",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-08-12T22:42:55.850577+00:00",
+      "description": "",
+      "work_date": "2026-08-07",
+      "width_cm": 200,
+      "height_cm": 200,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786574689/x1mnk9zljvka62jdmxol.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786574517/fhewgxfpwsyozvv0guse.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786574514/byf9sdk1vhe2cyrn7ayg.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786574537/af8bexqbnpznwubxsmij.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786574640/nqlaf4nhv1fwwro3opxq.jpg"
+      ]
+    },
+    {
+      "id": "56968b50-408e-42e9-8090-e0722177224b",
+      "title": "Cardboard collection",
+      "year": 2022,
+      "medium": "acrylic on cardboard",
+      "dimensions": "various",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-08T18:53:40.846404+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780999886/lehzv1vczm568isahlf8.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780944793/lpk3fmcbzagfskqr75oe.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780999889/hqqvkwtrg5xbpxdjxpzk.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781000226/tlmbj245lobraabljzyb.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781000373/nbwvm3znrfvkyhcemx5g.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781078950/qgz05jmb3cntoxfdnrff.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1784723735/dpixplcimcyfbyvxtzpm.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1784723788/z8qqasnzianscrkjekvh.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1784723893/f0hpg4etmtx3ann7ktix.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1784724451/bi16sbhrpv9vgkhuestd.jpg"
+      ]
+    },
+    {
+      "id": "8cebe04f-73d1-41ff-9f92-e9e715bb7aa6",
+      "title": "Nature nurtured",
+      "year": 2025,
+      "medium": "Acrylic, ink on cardboard",
+      "dimensions": "Two pieces, each 84 x 59cm",
+      "visibility": "published",
+      "collection_ids": [
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c",
+        "1301e7b9-a411-468a-8652-3c2c486a91ae"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-03T17:21:48.125883+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780744227/cuejir8qq4lhxjq5i85j.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1777829046/gkwxshnsvpcvaepmhccr.jpg"
+      ]
+    },
+    {
+      "id": "fdc5dc35-f9ce-4847-b2c3-95bc141ce9f4",
+      "title": "Teachers Pet",
+      "year": 2015,
+      "medium": "Hand dyed leather, upholstery, Ash, Alder, Oak, Walnut, and Perspex.",
+      "dimensions": "150 x 50cm",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T15:07:05.061445+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": 150,
+      "height_cm": 50,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778086532/xitnostamq4fgaecsjnq.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778079976/b8xcptu1jmz7fuih5axg.jpg"
+      ]
+    },
+    {
+      "id": "d8222827-7f6d-4f77-b715-21b7345d5e3e",
+      "title": "speaking with a voice from a place not here.",
+      "year": 2015,
+      "medium": "Porcelain steel",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T14:38:07.125907+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778078276/rnygpum5fhsq1sx93vpq.jpg"
+      ]
+    },
+    {
+      "id": "8b7d58fc-ee5b-418d-baeb-f2885865839e",
+      "title": "Probability of hitting curves",
+      "year": 2015,
+      "medium": "Porcelain",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T14:34:03.702119+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778084722/vgsylnwbcyvuiuk4u2fi.jpg"
+      ]
+    },
+    {
+      "id": "24ab90cd-38d7-49f4-b9c8-63047e8eca01",
+      "title": "Brass",
+      "year": 2015,
+      "medium": "Brass",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T14:39:59.323243+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778078395/ypaqcn4uosqehy1e2bcy.jpg"
+      ]
+    },
+    {
+      "id": "9734ce89-08dd-4c30-a90b-c03b86756983",
+      "title": "Tantric Space",
+      "year": 2015,
+      "medium": "Digital print",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "4bbe4afa-e9d2-4243-82b2-4d78cdc207f0"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T18:42:30.044344+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778092918/x6qtbr51hck1t3lyr55g.jpg"
+      ]
+    },
+    {
+      "id": "fa6e99cd-50c8-421a-957f-cb481d826f1b",
+      "title": "Victoria, Victorius",
+      "year": 2015,
+      "medium": "",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "4bbe4afa-e9d2-4243-82b2-4d78cdc207f0"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T18:44:15.739351+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778093017/elhgyzvzkdjzxe371bes.jpg"
+      ]
+    },
+    {
+      "id": "6cfc671b-378c-4b7e-b6d2-7e557b700dbe",
+      "title": "Memento mori",
+      "year": 2026,
+      "medium": "ink on cardboard",
+      "dimensions": "190 x 107cm",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "The phrase is Roman. Used as a way of seeing that things are temporary.\nA practice called 'Negative visualisation'. spend time imagining losing the things you value.The discomfort in building something that matters. grief from loving beings that are mortal. It is a sign of life. To live is to experience this loss. having to suffer.\nIn having suffered the search for something deeper happens. ‘Samvega', a Sanskrit word meaning 'collected speed'. An impulse to spurn the material concerns of every day life to search for something deeper.",
+      "image_url": null,
+      "created_at": "2026-06-06T12:42:29.25436+00:00",
+      "description": "",
+      "work_date": "2026-06-01",
+      "width_cm": 190,
+      "height_cm": 107,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780751288/bur0dt8khkjonbpxr5jo.jpg"
+      ]
+    },
+    {
+      "id": "6613f6d0-786e-4295-91c0-44c6f2397914",
+      "title": "Can you see me? Here I am.",
+      "year": 2015,
+      "medium": "leather, upholstery pins, painted pine.",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-18T10:00:34.825709+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781776829/iygurw1olyrcj5wmflio.jpg"
+      ]
+    },
+    {
+      "id": "65258ccf-8df5-42a9-bd38-152dde28bb74",
+      "title": "The universe according to Jane",
+      "year": 2015,
+      "medium": "digital print",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T18:36:43.476037+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778092597/fejw617cb0tcp7hkhih3.jpg"
+      ]
+    },
+    {
+      "id": "957736d7-fca6-4fc1-9989-53218bb612a1",
+      "title": "Flow",
+      "year": 2025,
+      "medium": "Ink on cardboard",
+      "dimensions": "80 x 60cm",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-04T09:31:13.174101+00:00",
+      "description": "",
+      "work_date": "2025-07-26",
+      "width_cm": 80,
+      "height_cm": 60,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780743178/tjpmqzgilr6unf9xojfn.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1777886822/t7eheiolsy8ajk1enrwb.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778672445/s8nkrra8ggogbddzyr4p.jpg"
+      ]
+    },
+    {
+      "id": "298508f9-4ff9-45db-a0a0-ac8edbfecd4a",
+      "title": "Lurking below the seen",
+      "year": 2025,
+      "medium": "Watercolour on cardboard",
+      "dimensions": "80 x 60cm",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T17:45:57.367085+00:00",
+      "description": "",
+      "work_date": "2025-07-23",
+      "width_cm": 80,
+      "height_cm": 60,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780748343/xmdudretrbh0jm6l2rzi.jpg"
+      ]
+    },
+    {
+      "id": "2a1dab7a-e0cd-4e58-9c54-9f0265a6005d",
+      "title": "Still",
+      "year": 2025,
+      "medium": "Watercolour on cardboard",
+      "dimensions": "57 x 83cm",
+      "visibility": "published",
+      "collection_ids": [
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T17:45:14.310818+00:00",
+      "description": "",
+      "work_date": "2025-07-14",
+      "width_cm": 57,
+      "height_cm": 83,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780744662/s0jkhrznrtwyb6j5evxn.jpg"
+      ]
+    },
+    {
+      "id": "8eb1bebf-bb6a-45bb-bfb5-0354dd62b66b",
+      "title": "Wolf - work in progress",
+      "year": 2026,
+      "medium": "Mixed media",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "b322cf93-3277-4522-a2b2-806b4bc6ba94"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-03T18:15:38.097928+00:00",
+      "description": "",
+      "work_date": "2026-02-11",
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1777832081/gsckllkor6alrojzb5au.jpg"
+      ]
+    },
+    {
+      "id": "ebbc4e7c-514b-42a1-8e5b-ca6c36bb8978",
+      "title": "A wave, the sea.",
+      "year": 2026,
+      "medium": "Ink on paper",
+      "dimensions": "97 x 200 cm",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "b322cf93-3277-4522-a2b2-806b4bc6ba94"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-03T17:38:26.461195+00:00",
+      "description": "",
+      "work_date": "2026-04-25",
+      "width_cm": 97,
+      "height_cm": 200,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1777829833/hbawigenwffanibmoibo.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1777829899/x87cqgiudcvymlkli3je.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1777829900/hto4jepx9rx8frvqkaao.jpg"
+      ]
+    },
+    {
+      "id": "1a27ca02-1c45-48ca-ac56-69e1c09fd744",
+      "title": "I gotta keep running",
+      "year": 2011,
+      "medium": "Photo poster",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-08T19:02:48.643816+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780945364/cijrvio22ieymmoblard.jpg"
+      ]
+    },
+    {
+      "id": "b2f9fe17-1cd8-4a63-b573-6e0b50cbb3e9",
+      "title": "Everything starts in the womb",
+      "year": 2016,
+      "medium": "acrylic, ink on hardboard",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T11:07:52.271874+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778152059/okzynljrqzumnid3izwy.jpg"
+      ]
+    },
+    {
+      "id": "a6ab2907-0f2f-4d69-8fb6-d58c14c5f024",
+      "title": "When an unstoppable force meets an unmovable object",
+      "year": 2014,
+      "medium": "Installation",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "fe5f849b-9d35-4de7-a700-52fb8fbfe91c",
+        "1301e7b9-a411-468a-8652-3c2c486a91ae"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T20:11:20.261112+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778097885/tox4suqcglleml64kisd.jpg"
+      ]
+    },
+    {
+      "id": "cd90eac2-5a6d-4125-85c1-b0187f7166b4",
+      "title": "Encountering another without knowing of them.",
+      "year": 2020,
+      "medium": "Acrylic on paper",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T17:51:18.177653+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778089744/dwcjph7zvxjilcqlyvfy.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778089752/ksnz6xo0vdmuxt8y2ieu.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778089758/tcn19xp2z297xauxs3mf.jpg"
+      ]
+    },
+    {
+      "id": "f208025b-249a-4174-8e9d-4356fb0df6a6",
+      "title": "Word up",
+      "year": 2010,
+      "medium": "Digital print",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-10T15:42:42.376117+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781106134/mgdkhs0vailxrbo1quq2.jpg"
+      ]
+    },
+    {
+      "id": "1898ee4d-cfff-4920-b07b-722c4e8843ba",
+      "title": "OO",
+      "year": 2001,
+      "medium": "acrylic on hardboard",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T10:21:31.614348+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778149244/l84kap7xsxivgy3vulj4.jpg"
+      ]
+    },
+    {
+      "id": "6090547c-b47a-4dba-b955-447facab8d15",
+      "title": "Watford Gap",
+      "year": 2015,
+      "medium": "Walnut, brass pin, nail, bra strap",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T14:59:30.77374+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778079561/z4gs3xxmty99n7ai0rrs.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778079653/n0rgoqg9oc5y465dun6i.jpg"
+      ]
+    },
+    {
+      "id": "a0a7954f-7363-4eb7-9207-1e8e749853da",
+      "title": "Okinawa",
+      "year": 2015,
+      "medium": "Porcelain",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T14:43:15.237314+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778078590/saspsftr8x03nsi5md5e.jpg"
+      ]
+    },
+    {
+      "id": "30bce13d-9606-472d-ba07-28daaa476748",
+      "title": "Eurotunnel and Cygnus X-1, a black hole, had a chat and Eurotunnel just couldn’t open up",
+      "year": 2014,
+      "medium": "Ceramic, ink, 3d model, white gold leaf, Alder, brass",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T14:49:09.535254+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778078805/tobui9z7pxcsribzfikn.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778078846/wahfu89baytmn285mgoj.jpg"
+      ]
+    },
+    {
+      "id": "44c7736a-5452-4164-8b75-cb27f0e17d97",
+      "title": "Yesterdays, todays, tomorrows",
+      "year": 2025,
+      "medium": "Watercolour on paper",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T17:44:32.512196+00:00",
+      "description": "",
+      "work_date": "2025-08-06",
+      "width_cm": 76,
+      "height_cm": 56,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780747650/u7blwzzl51wkr33u5nud.jpg"
+      ]
+    },
+    {
+      "id": "ca95fc3e-f936-4353-b4c7-73658c595672",
+      "title": "The skin we’re in",
+      "year": 2022,
+      "medium": "recycled leather, Thread.",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-17T19:32:47.143768+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781724744/oqv1gg7knwbxvp1whgrq.jpg"
+      ]
+    },
+    {
+      "id": "4388f912-9772-4504-906e-1d7c0a9d67c9",
+      "title": "The ocean calls my name and the sky blows my head off",
+      "year": 2019,
+      "medium": "Acrylic on canvas",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T16:45:57.372034+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778085943/yrhrexqd694f7dnusg9m.jpg"
+      ]
+    },
+    {
+      "id": "e3a00cc0-24af-4cbc-87f2-8d9ccc0438ee",
+      "title": "You can tell me all about it on the next bardo",
+      "year": 2025,
+      "medium": "",
+      "dimensions": "76 x 56cm",
+      "visibility": "published",
+      "collection_ids": [
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-04T09:54:14.49213+00:00",
+      "description": "",
+      "work_date": "2025-06-09",
+      "width_cm": 76,
+      "height_cm": 56,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778672297/kggdf5ix5ryf5joagrpy.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780746725/wazcjwbb2dovqjnm6w3o.jpg"
+      ]
+    },
+    {
+      "id": "12932dc3-2c2c-48e2-9260-050d7f0222a1",
+      "title": "Beyond what I see with my own eyes",
+      "year": 2026,
+      "medium": "Ink on paper",
+      "dimensions": "12 pieces each  52 x 42cm",
+      "visibility": "preview",
+      "collection_ids": [
+        "b322cf93-3277-4522-a2b2-806b4bc6ba94"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-17T22:44:03.620788+00:00",
+      "description": "",
+      "work_date": "2026-03-04",
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736061/gkcwylvtxrih2cjyba4e.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736032/o7jdrmf2pwmfjve1kipe.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736033/f4pyzjzetr1ai6gkh4cb.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736036/fjopa8sygzm2a4uat30s.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736038/owovhecgj5wc7ilytzvw.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736053/mze0c0ctk5rkjmlgjzod.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736055/ud95dvykwkvbelxib64l.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736086/ny0jr79ac0hwdwwhy5p7.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736088/cw4jgirhujjok9ywtrhe.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736235/luh8sczpq0mwvcy559qu.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736090/pus0tdlljlzlas3myfyt.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781736093/stawbchlcfvrupc01f5b.jpg"
+      ]
+    },
+    {
+      "id": "51848c4a-2afa-418e-bb87-42949fd94af4",
+      "title": "Unmasking the typecast model",
+      "year": 2025,
+      "medium": "mixed media on hardboard",
+      "dimensions": "84 x 59cm",
+      "visibility": "draft",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-06T10:59:39.668271+00:00",
+      "description": "",
+      "work_date": "2025-05-29",
+      "width_cm": 84,
+      "height_cm": 59,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780743508/cizwb4ikgxpurp8jztwj.jpg"
+      ]
+    },
+    {
+      "id": "e892a86c-c2e9-4a3c-a0aa-15e247eaf0fc",
+      "title": "I think therefore I am, we think therefore we are",
+      "year": 2015,
+      "medium": "Ceramic, glass",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T14:55:20.441494+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778079297/peynhfdjhfq65tb3hjiw.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778079286/n7mexamtxbuz2fwb6fth.jpg"
+      ]
+    },
+    {
+      "id": "166b5d15-efb4-4a00-ab8e-73564d4d401e",
+      "title": "Nick those gloves",
+      "year": 2015,
+      "medium": "Goatskin, found turned wood, section of a school chemistry table",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "383246c4-371a-4803-b7e3-d62decee746f",
+        "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T15:10:36.760754+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778085086/zkk2sgpewytd2bovbfkv.jpg"
+      ]
+    },
+    {
+      "id": "f151101e-b2b8-41c8-a785-35643eb8ceb9",
+      "title": "Duvet for a wooden beam",
+      "year": 2015,
+      "medium": "Watercolour",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd",
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T14:53:02.994458+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778079175/wgj6p2v09me53lzo71lb.jpg"
+      ]
+    },
+    {
+      "id": "4a1d3a57-68f4-4577-a070-18095e4228b5",
+      "title": "The blue",
+      "year": 2026,
+      "medium": "Ink on paper",
+      "dimensions": "5 pieces, each 27.5 x 14cm",
+      "visibility": "draft",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "b322cf93-3277-4522-a2b2-806b4bc6ba94"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-03T18:45:31.430936+00:00",
+      "description": "",
+      "work_date": "2026-02-15",
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716109/jrnm1i8vw09vwa66sztx.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716107/e9arqj61jnjy0p3kqyp5.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716099/swiwej3ssharebxzjuyh.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716101/vutnqrqzc4qkmybzq1fq.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781716105/upj2fiiecrdm5gqy9jwy.jpg"
+      ]
+    },
+    {
+      "id": "b728aca0-b5f3-48fa-8bb5-01182623a6bc",
+      "title": "Dictator decay",
+      "year": null,
+      "medium": "acrylic on hardboard",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T10:34:13.066565+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778150048/kww4g2wa0oodzu6tmidr.jpg"
+      ]
+    },
+    {
+      "id": "bf3c4ec5-8467-447a-9b97-14ef23055e38",
+      "title": "A sperm and egg get together and then where comes life? Does life choose us or do we choose life?",
+      "year": null,
+      "medium": "acrylic on hardboard",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T11:18:10.987408+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778152768/r7twsgr8bq48rjynghnn.jpg"
+      ]
+    },
+    {
+      "id": "0136519f-a8e2-4051-95ef-f36e5035f51c",
+      "title": "Palimpsest",
+      "year": 2001,
+      "medium": "Acrylic on hardboard",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T11:11:11.637038+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778152247/uosxjidincah2c7pch7p.jpg"
+      ]
+    },
+    {
+      "id": "20519e57-404e-40bd-89d1-53dbe4644fc6",
+      "title": "Change the way it works.",
+      "year": 2012,
+      "medium": "Target. Darts",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-18T10:47:55.157041+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1781779604/uifmsiz0wj09qjpcolu2.jpg"
+      ]
+    },
+    {
+      "id": "170eaff4-8e05-4d00-ab42-d6c30e8e4dab",
+      "title": "Looking forward, thinking back",
+      "year": 2001,
+      "medium": "",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T13:56:35.637613+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778162190/r8nrhstoeksb5ui8myqr.jpg"
+      ]
+    },
+    {
+      "id": "e34d00d6-666d-4412-bf20-50817c33fff1",
+      "title": "3x3",
+      "year": 2001,
+      "medium": "Acrylic on card",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T14:14:32.40488+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778163213/bwmrmpwv0jsvhbvhiooc.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778163237/ouh9lgjjdj4dznmuwygv.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778163238/u3w2krhon3eb2r4d3du1.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778163239/agbpqicvdoim9zrqct9p.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778163240/zalnyzdhrab2yctkjqap.jpg"
+      ]
+    },
+    {
+      "id": "a2a47188-36d5-4b8c-b760-8e8d00345f79",
+      "title": "The limits of my world are the limits of my imagination",
+      "year": 2001,
+      "medium": "Acrylic,pastel on hardboard",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-07T10:18:43.078554+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778149119/m5nthvjfgs9g75syuw0e.jpg"
+      ]
+    },
+    {
+      "id": "1314ab4d-a6c0-4825-974b-d9ce2d5fed75",
+      "title": "clay",
+      "year": 2026,
+      "medium": "",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "b610c7a5-4ab0-4446-97cc-227fb620ab44"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-29T13:54:24.764369+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782741250/hzdlmkclmnizadn90rf9.jpg"
+      ]
+    },
+    {
+      "id": "5841eeb7-ffe3-4acf-afdd-e222cbffb2f6",
+      "title": "Palm fronds",
+      "year": 2026,
+      "medium": "",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "b610c7a5-4ab0-4446-97cc-227fb620ab44"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-29T13:57:27.165132+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782741423/hd3idjbdxie5wpj1fblz.jpg"
+      ]
+    },
+    {
+      "id": "35854133-43b6-4e75-a2a0-7b156427a423",
+      "title": "Driftwood",
+      "year": 2026,
+      "medium": "",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "b610c7a5-4ab0-4446-97cc-227fb620ab44"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-29T13:55:08.402161+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782741277/col2eafgyd2fxxh8q9tm.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782741743/pdjqmok6yr1zg3oiojik.jpg"
+      ]
+    },
+    {
+      "id": "b083c874-b9cd-4af3-98d8-570adcdf5296",
+      "title": "Cornus",
+      "year": 2026,
+      "medium": "",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "b610c7a5-4ab0-4446-97cc-227fb620ab44"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-29T13:58:29.067401+00:00",
+      "description": "",
+      "work_date": "2026-05-30",
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1782741495/b149arijpvagcwnxasuu.jpg"
+      ]
+    },
+    {
+      "id": "b27e6e4f-990f-4728-81cd-d5666ffe2cb2",
+      "title": "I understood in my head but not in my body",
+      "year": 2022,
+      "medium": "Acrylic on canvas",
+      "dimensions": "",
+      "visibility": "published",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "383246c4-371a-4803-b7e3-d62decee746f"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-09T10:10:01.681456+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780946042/c6zmvmk5koayi6ftmqob.jpg"
+      ]
+    },
+    {
+      "id": "6e35831d-ff50-414d-bfa4-9e287af8004a",
+      "title": "Yoni",
+      "year": 2020,
+      "medium": "",
+      "dimensions": "",
+      "visibility": "draft",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "1e9868dc-ef86-484c-b854-1c70f6eb51f1"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-05-06T19:45:52.365049+00:00",
+      "description": "",
+      "work_date": null,
+      "width_cm": null,
+      "height_cm": null,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778096733/srnzxggnwms9b2wt08vd.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778096554/ya0ruhelfvd4u4bervi0.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778096601/idyu2idrvg2otuwlevwi.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1778096664/uirnitxelxzxujuakv5b.jpg"
+      ]
+    },
+    {
+      "id": "bb5c7eb3-84b6-43d0-9300-e6ca711e121c",
+      "title": "Outwards and outwards and outwards",
+      "year": 2025,
+      "medium": "",
+      "dimensions": "80 x 60cm",
+      "visibility": "draft",
+      "collection_ids": [
+        "1301e7b9-a411-468a-8652-3c2c486a91ae",
+        "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c"
+      ],
+      "tags": [],
+      "notes": "",
+      "image_url": null,
+      "created_at": "2026-06-06T11:14:18.976043+00:00",
+      "description": "",
+      "work_date": "2025-05-30",
+      "width_cm": 80,
+      "height_cm": 60,
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1780744427/eym7dggc1rtjkt9mxmpz.jpg"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "4bbe4afa-e9d2-4243-82b2-4d78cdc207f0",
+      "name": "Tonic",
+      "description": "",
+      "visibility": "draft",
+      "share_token": null,
+      "created_at": "2026-05-06T18:41:02.234292+00:00"
+    },
+    {
+      "id": "9c355d32-b4f2-4af1-9db6-b4b9bc01ac8c",
+      "name": "Time flows outward from the mark we make",
+      "description": "",
+      "visibility": "draft",
+      "share_token": null,
+      "created_at": "2026-05-04T12:46:46.310959+00:00"
+    },
+    {
+      "id": "cd0188ef-6641-497e-b6f6-4e12f5bbc5bd",
+      "name": "The probability of hitting curves",
+      "description": "",
+      "visibility": "draft",
+      "share_token": null,
+      "created_at": "2026-05-06T14:22:32.247254+00:00"
+    },
+    {
+      "id": "383246c4-371a-4803-b7e3-d62decee746f",
+      "name": "Portfolio",
+      "description": "Cerlin's Portfolio. A brief summary demonstrating the range and qualities of her work, primarily to support proposals and applications. Not for publication. Cerln's eyes only.",
+      "visibility": "draft",
+      "share_token": null,
+      "created_at": "2026-06-18T19:14:21.244808+00:00"
+    },
+    {
+      "id": "b322cf93-3277-4522-a2b2-806b4bc6ba94",
+      "name": "Love >< Grief (preparatory works)",
+      "description": "",
+      "visibility": "draft",
+      "share_token": null,
+      "created_at": "2026-05-03T17:47:28.685558+00:00"
+    },
+    {
+      "id": "b610c7a5-4ab0-4446-97cc-227fb620ab44",
+      "name": "Materials",
+      "description": "",
+      "visibility": "draft",
+      "share_token": null,
+      "created_at": "2026-06-29T13:50:12.945744+00:00"
+    }
+  ],
+  "exhibitions": [
+    {
+      "id": "7bb2b96f-c701-41ee-ba6b-c76f9ceff362",
+      "name": "Hospital Request",
+      "place": "The Moor, Sheffield",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-16T22:13:06.795949+00:00",
+      "visibility": "draft",
+      "year": 2011,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "474a5919-15d0-4f33-8ecc-51d4ed426bbf",
+      "name": "Hottentottententententoonstelling",
+      "place": "Dyson Gallery, London",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:15:14.837491+00:00",
+      "visibility": "draft",
+      "year": 2014,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "05ad0dff-2bf7-4728-b153-e5adaa37d8aa",
+      "name": "Lacklustre",
+      "place": "Snig Hill Gallery, Sheffield",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-16T22:13:06.795949+00:00",
+      "visibility": "draft",
+      "year": 2012,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "35ca7c6a-1bd3-4bb0-b703-4802b6d0780d",
+      "name": "Project Agency",
+      "place": "Kunsthalle, Aarhus, Denmark",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:14:18.377419+00:00",
+      "visibility": "draft",
+      "year": 2014,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "fadbef41-ece4-4c36-b032-9166ceed62bb",
+      "name": "RCA Degree Show",
+      "place": "RCA Battersea, London",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:12:39.492021+00:00",
+      "visibility": "draft",
+      "year": 2015,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "1b1e50cd-9027-45b1-bb8b-78480d63a1b1",
+      "name": "Sheffield Fringe",
+      "place": "Bloc Studios, Sheffield",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:16:01.667246+00:00",
+      "visibility": "draft",
+      "year": 2013,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "4ccda9ef-cd80-4c9d-bdb9-0fd58797b25e",
+      "name": "So Far So Good",
+      "place": "Malgras/Naudet, Manchester",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:16:53.520078+00:00",
+      "visibility": "draft",
+      "year": 2012,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "232a8836-f9b2-45dd-aaf2-1cfb3b0270c1",
+      "name": "Spectrum Degree Show",
+      "place": "Sheffield Hallam University, Sheffield",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:17:55.122411+00:00",
+      "visibility": "draft",
+      "year": 2012,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "446d353e-f901-4a03-b0f1-7f655a99ca1d",
+      "name": "Surface Tension",
+      "place": "The Pool, Austin, Texas",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:13:32.121206+00:00",
+      "visibility": "draft",
+      "year": 2014,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "6a615332-7b63-468e-bd69-dd8f6481d91c",
+      "name": "The Knight and the Squire",
+      "place": "Orchard Centre, Sheffield",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-16T22:13:06.795949+00:00",
+      "visibility": "draft",
+      "year": 2011,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "d3ece213-8d38-481e-a00a-ff41653f4c96",
+      "name": "The Man Who Was Wednesday",
+      "place": "Spinach, London",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:16:24.386597+00:00",
+      "visibility": "draft",
+      "year": 2013,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "dec1e918-e628-473b-8a75-8c9b8373aeb1",
+      "name": "Trivial BBQ",
+      "place": "Flat Time House, London",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:14:41.240041+00:00",
+      "visibility": "draft",
+      "year": 2014,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "3ec42824-833a-406a-9455-c99fafa65ba6",
+      "name": "Who's Who (curated by Louise Chignac)",
+      "place": "RCA Battersea, London",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:13:54.222037+00:00",
+      "visibility": "draft",
+      "year": 2014,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "f3abe4a7-9f93-4513-9f6d-08c72449731c",
+      "name": "Brightest Spark",
+      "place": "The Sia Gallery, Sheffield",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:17:28.883617+00:00",
+      "visibility": "draft",
+      "year": 2012,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "3a53e653-ae39-48af-8774-df010bc48509",
+      "name": "WIP Show",
+      "place": "RCA Kensington Gore, London",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:15:40.747976+00:00",
+      "visibility": "draft",
+      "year": 2014,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "b17008e5-8478-49d5-9850-4276d71131ce",
+      "name": "Pause Patina",
+      "place": "Camden Arts Centre, London",
+      "start_date": null,
+      "end_date": null,
+      "work_ids": [],
+      "created_at": "2026-07-09T15:13:00.14347+00:00",
+      "visibility": "draft",
+      "year": 2015,
+      "about_text": null,
+      "exhibition_images": [],
+      "co_exhibitors": []
+    },
+    {
+      "id": "d5c42221-3db1-4295-9c6b-6ce755e176f9",
+      "name": "As if about to whistle",
+      "place": "The Old Waiting Room, Peckham",
+      "start_date": "2026-08-08",
+      "end_date": null,
+      "work_ids": [
+        "efa6ac1b-b1d4-4721-a0eb-91be28bd96b4",
+        "53a20229-fae5-4b8a-8329-e3048661f16c"
+      ],
+      "created_at": "2026-07-09T15:23:58.882476+00:00",
+      "visibility": "published",
+      "year": 2026,
+      "about_text": "",
+      "exhibition_images": [
+        {
+          "url": "https://res.cloudinary.com/dgimf8yud/image/upload/v1786272253/a10ovgr24ckawgm2rpxk.jpg",
+          "type": "poster",
+          "caption": "Poster"
+        },
+        {
+          "url": "https://res.cloudinary.com/dgimf8yud/image/upload/v1786574811/fxuurmlx7aueuyqprv0r.jpg",
+          "type": "install",
+          "is_pdf": false,
+          "caption": ""
+        },
+        {
+          "url": "https://res.cloudinary.com/dgimf8yud/image/upload/v1786574813/m00f7nniolh467a4b5fb.jpg",
+          "type": "install",
+          "is_pdf": false,
+          "caption": ""
+        },
+        {
+          "url": "https://res.cloudinary.com/dgimf8yud/image/upload/v1786575108/ezudidocmn9yjpxqxena.jpg",
+          "type": "install",
+          "is_pdf": false,
+          "caption": ""
+        }
+      ],
+      "co_exhibitors": [
+        {
+          "url": "",
+          "name": "Yuang Chai Wong"
+        },
+        {
+          "url": "",
+          "name": "Eugenia Popesco"
+        },
+        {
+          "url": "",
+          "name": "Michael Bryan"
+        },
+        {
+          "url": "",
+          "name": "Matthew Clifton"
+        },
+        {
+          "url": "",
+          "name": "Luke Demerest"
+        },
+        {
+          "url": "",
+          "name": "Saija Kangasniemi"
+        },
+        {
+          "url": "",
+          "name": "Amale Freiha Khlat"
+        },
+        {
+          "url": "",
+          "name": "Mark Langston"
+        },
+        {
+          "url": "",
+          "name": "Margot Litchfield"
+        },
+        {
+          "url": "",
+          "name": "Victoria Zanconato"
+        }
+      ]
+    }
+  ],
+  "bio": [
+    {
+      "id": "9212f89a-0890-4d58-a9e5-9eee74dfd8f6",
+      "text": "Am still here. Making, shaping and doing. Life gives us oranges and we make lemon juice. \nThings shift, we change and timelines move.\nI am a now living on the West coast of Ireland. Looking at the same horizon. Different vantage\npoint. Please connect. It would be great to hear from you. Contact: cerlin@live.com",
+      "statement": "I am concerned with what it means to dwell, not as a singular notion which exists in given concepts but something more haphazard. A juncture where collisions happen when emotional, personal, social and political meet. I use materialsI I have in my space as well as paint, photography, assemblage, text and also make things. I like to repurpose materials that have a history. Maybe the empirical has only discovered a fraction of what we can explain. What we believe and can’t prove will slowly reveal itself as we open up the boundaries of investigation.\n\n\n\n\n",
+      "image_urls": [
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1784331325/scezpj9oef1lvj4l1qsi.jpg",
+        "https://res.cloudinary.com/dgimf8yud/image/upload/v1786303094/etxsgk052z0fs4geq31h.jpg"
+      ],
+      "cv_text": "EDUCATION\nMA Fine Art, Sculpture              The Royal College of Art 2015\nBA Hons Fine Art                   Sheffield Hallam Universit   2012\nArt foundation            Central St Martins School of Art      1992\n\nAWARDS\n\nThe Gilbert Bayes Trust award for sculpture                                              2015\nThe Royal College of art bursary                                                                2015\nThe Eaton Fund grant                                                                                  2014\nCreative Spark Fine Art award                                                                     2012\nThe Sarah Beck Memorial Prize for outstanding innovation in sculpture  2012",
+      "visibility": "published"
+    }
+  ],
+  "counts": {
+    "works": 79,
+    "collections": 6,
+    "exhibitions": 17,
+    "bio": 1
+  }
+}
