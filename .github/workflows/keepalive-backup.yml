@@ -1,0 +1,167 @@
+name: Supabase Keep-Alive & Backup
+
+# Runs twice a week — comfortably under Supabase's 7-day inactivity
+# pause window, with margin in case one run fails.
+# Also runnable manually any time from the Actions tab.
+on:
+  schedule:
+    - cron: '0 6 * * 1,4'   # Mon & Thu, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed so this workflow can commit the backup file back into the repo
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v4
+
+      - name: Fetch tables from Supabase (this is what counts as "activity" and prevents the pause)
+        env:
+          SUPABASE_URL: https://wowtdwlpatpqjzlqpqcj.supabase.co
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          mkdir -p /tmp/raw
+          for table in works collections exhibitions bio; do
+            curl -sf "$SUPABASE_URL/rest/v1/$table?select=*" \
+              -H "apikey: $SUPABASE_ANON_KEY" \
+              -H "Authorization: Bearer $SUPABASE_ANON_KEY" \
+              -o "/tmp/raw/$table.json"
+          done
+
+      - name: Combine into one dated backup file
+        run: |
+          mkdir -p backups
+          DATE=$(date -u +%Y-%m-%d)
+          python3 - "$DATE" << 'PYEOF'
+          import json, sys, datetime
+
+          date = sys.argv[1]
+
+          def load(path):
+              with open(path) as f:
+                  return json.load(f)
+
+          backup = {
+              "backup_created_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "source": "Supabase project wowtdwlpatpqjzlqpqcj (material-poetry), automated via GitHub Actions",
+              "note": "Snapshot of works, collections, exhibitions, and bio tables. Image FILES themselves live in Cloudinary and are referenced by URL in image_urls fields, not duplicated here.",
+              "works": load("/tmp/raw/works.json"),
+              "collections": load("/tmp/raw/collections.json"),
+              "exhibitions": load("/tmp/raw/exhibitions.json"),
+              "bio": load("/tmp/raw/bio.json"),
+          }
+          backup["counts"] = {k: len(backup[k]) for k in ("works", "collections", "exhibitions", "bio")}
+
+          with open(f"backups/{date}.json", "w") as f:
+              json.dump(backup, f, indent=2, ensure_ascii=False)
+          with open("backups/latest.json", "w") as f:
+              json.dump(backup, f, indent=2, ensure_ascii=False)
+
+          print(f"Backed up: {backup['counts']}")
+          PYEOF
+
+      - name: Download referenced media files (new ones only)
+        # Cloudinary's own policy allows wiping "dormant" accounts, so this
+        # pulls the actual image/PDF files — not just their URLs — into the
+        # repo. Only genuinely new files are downloaded each run, so the
+        # repo grows with real new uploads, not with re-fetched duplicates.
+        run: |
+          mkdir -p backups/media
+          python3 - << 'PYEOF'
+          import json, os, re, urllib.request, urllib.error, hashlib
+
+          def load(path):
+              with open(path) as f:
+                  return json.load(f)
+
+          works = load("/tmp/raw/works.json")
+          bio_rows = load("/tmp/raw/bio.json")
+          exhibitions = load("/tmp/raw/exhibitions.json")
+
+          def as_list(val):
+              if isinstance(val, str):
+                  try:
+                      val = json.loads(val)
+                  except Exception:
+                      return []
+              return val if isinstance(val, list) else []
+
+          urls = []  # (url, is_pdf)
+          for w in works:
+              for u in as_list(w.get("image_urls")):
+                  if u:
+                      urls.append((u, False))
+              if w.get("image_url"):
+                  urls.append((w["image_url"], False))
+          for b in bio_rows:
+              for u in as_list(b.get("image_urls")):
+                  if u:
+                      urls.append((u, False))
+          for ex in exhibitions:
+              for im in (ex.get("exhibition_images") or []):
+                  if im and im.get("url"):
+                      urls.append((im["url"], bool(im.get("is_pdf"))))
+
+          # de-duplicate while preserving order
+          seen = set()
+          unique_urls = []
+          for u, is_pdf in urls:
+              if u not in seen:
+                  seen.add(u)
+                  unique_urls.append((u, is_pdf))
+
+          CLOUDINARY_TRANSFORM = "/upload/w_1200,q_70,f_auto/"
+          MAX_BYTES = 90 * 1024 * 1024  # stay under GitHub's 100MB per-file limit
+
+          def target_filename(url):
+              # Strip query string, keep the meaningful path, hash for a short
+              # stable, collision-free name, keep original extension for sanity.
+              path = url.split("?")[0]
+              ext = os.path.splitext(path)[1] or ""
+              h = hashlib.sha1(path.encode()).hexdigest()[:16]
+              return f"{h}{ext}"
+
+          downloaded, skipped_existing, failed = 0, 0, 0
+          for url, is_pdf in unique_urls:
+              fname = target_filename(url)
+              target = os.path.join("backups/media", fname)
+              if os.path.exists(target):
+                  skipped_existing += 1
+                  continue
+
+              fetch_url = url
+              if not is_pdf and "res.cloudinary.com" in url:
+                  fetch_url = re.sub(r"/upload/(?!w_)", CLOUDINARY_TRANSFORM, url)
+
+              try:
+                  req = urllib.request.Request(fetch_url, headers={"User-Agent": "material-poetry-backup"})
+                  with urllib.request.urlopen(req, timeout=30) as resp:
+                      data = resp.read(MAX_BYTES + 1)
+                      if len(data) > MAX_BYTES:
+                          print(f"SKIP (too large): {url}")
+                          failed += 1
+                          continue
+                      with open(target, "wb") as f:
+                          f.write(data)
+                      downloaded += 1
+              except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
+                  print(f"FAILED: {url} ({e})")
+                  failed += 1
+
+          print(f"Media backup: {downloaded} new, {skipped_existing} already backed up, {failed} failed")
+          PYEOF
+
+      - name: Commit and push backup
+        run: |
+          git config user.name "material-poetry-backup-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add backups/
+          if git diff --cached --quiet; then
+            echo "No changes since last backup — nothing to commit."
+          else
+            git commit -m "Automated backup $(date -u +%Y-%m-%d)"
+            git push
+          fi
