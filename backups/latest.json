@@ -1,5 +1,5 @@
 {
-  "backup_created_at": "2026-10-12T14:22:52.351566+00:00",
+  "backup_created_at": "2026-10-15T10:50:19.137241+00:00",
   "source": "Supabase project wowtdwlpatpqjzlqpqcj (material-poetry), automated via GitHub Actions",
   "note": "Snapshot of works, collections, exhibitions, and bio tables. Image FILES themselves live in Cloudinary and are referenced by URL in image_urls fields, not duplicated here.",
   "works": [
